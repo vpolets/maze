@@ -1,5 +1,4 @@
 'use strict';
-import './styles.css';
 
 const maze = document.querySelector('#maze');
 const mazeFrame = document.querySelector('#maze-frame');
