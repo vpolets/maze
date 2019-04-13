@@ -433,6 +433,7 @@ document.getElementById('generate-maze').addEventListener('click', event => {
     if (currentAction === 2) {
       finishPoint = new point(coordY, coordX);
       setFinishPoint(finishPoint, maze.querySelector('tbody'));
+      mazeArray[finishPoint.i][finishPoint.j] = -1;
     }
 
     if (currentAction === 3) {
