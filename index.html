@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Maze</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="maze-frame">
+      <fieldset id="controlls">
+        <legend>Maze size</legend>
+        <input
+          type="number"
+          id="maze-height"
+          value="16"
+          class="controll-input"
+        />
+        <input
+          type="number"
+          id="maze-width"
+          value="16"
+          class="controll-input"
+        />
+        <button id="generate-maze">Generate Maze</button>
+      </fieldset>
+      <div id="maze"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

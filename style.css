@@ -1,0 +1,61 @@
+#maze-frame {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #controlls {
+    padding: 10px 70px 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(156, 156, 156);
+  }
+  
+  #maze-frame .controll-input {
+    width: 40px;
+  }
+  
+  #maze table {
+    border-collapse: collapse;
+    width: auto;
+    font-family: Lora, serif;
+    font-size: 9px;
+  }
+  
+  #maze {
+  }
+  
+  #maze td {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  
+  #maze table tbody td[value='-2'] {
+    background: #000;
+  }
+  
+  #maze table tbody td.start-point {
+    background: #2e7d32;
+    color: #2e7d32;
+  }
+  
+  #maze table tbody td.finish-point {
+    background: #e53935;
+    color: #e53935;
+  }
+  #maze table td.short {
+    background: #ffe600;
+  }
+  
+  #maze-frame .controll-buttons {
+    margin-top: 25px;
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
